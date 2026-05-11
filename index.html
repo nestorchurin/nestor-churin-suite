@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nestor (Pavlo) Churin | Yunexal</title>
+  <meta name="description" content="Personal bio website of Nestor (Pavlo) Churin, founder of Yunexal and creator of Yunexal Panel.">
+  <meta property="og:title" content="Nestor (Pavlo) Churin | Yunexal">
+  <meta property="og:description" content="Founder of Yunexal and creator of Yunexal Panel.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0f162e">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <div class="bg-shape bg-shape-one" aria-hidden="true"></div>
+  <div class="bg-shape bg-shape-two" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#hero">Nestor (Pavlo) Churin</a>
+
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#about" data-i18n="nav.about">Про мене</a>
+        <a href="#projects" data-i18n="nav.projects">Проєкти</a>
+        <a href="#skills" data-i18n="nav.skills">Навички</a>
+        <a href="#faq" data-i18n="nav.faq">FAQ</a>
+        <a href="#contacts" data-i18n="nav.contacts">Контакти</a>
+      </nav>
+
+      <div class="lang-switch" role="group" aria-label="Language switcher">
+        <button type="button" data-lang-control="uk" aria-pressed="false">UA</button>
+        <button type="button" data-lang-control="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero section-pop">
+      <p class="eyebrow" data-i18n="hero.eyebrow">Засновник Yunexal</p>
+      <h1 data-i18n="hero.title">Nestor (Pavlo) Churin</h1>
+      <p class="hero-subtitle" data-i18n="hero.subtitle">Створюю self-hosted інструменти для інфраструктури.</p>
+      <p class="hero-description" data-i18n="hero.description">
+        Батько проєкту Yunexal Panel. Створюю практичні інструменти для керування серверами та Docker-середовищем.
+      </p>
+
+      <div class="hero-meta">
+        <span data-i18n="hero.ageLabel">Вік</span>
+        <strong id="age-value" data-birth-date="10.03.2005">--</strong>
+        <span class="dot" aria-hidden="true"></span>
+        <span data-i18n="hero.themeLabel">Тема: авто за пристроєм</span>
+      </div>
+
+      <div class="hero-actions">
+        <a class="button primary" href="#projects" data-i18n="hero.ctaProjects">Переглянути проєкти</a>
+        <a class="button ghost" href="#contacts" data-i18n="hero.ctaContact">Зв'язатися</a>
+      </div>
+    </section>
+
+    <section class="stats section-pop" aria-label="Quick facts">
+      <article class="info-card">
+        <p class="card-label" data-i18n="stats.roleLabel">Роль</p>
+        <h3 data-i18n="stats.roleValue">Засновник Yunexal</h3>
+      </article>
+
+      <article class="info-card">
+        <p class="card-label" data-i18n="stats.focusLabel">Основний фокус</p>
+        <h3 data-i18n="stats.focusValue">Yunexal Panel</h3>
+      </article>
+
+      <article class="info-card">
+        <p class="card-label" data-i18n="stats.timeLabel">Київський час</p>
+        <h3 data-kyiv-time>--:--</h3>
+      </article>
+    </section>
+
+    <section id="about" class="section section-pop">
+      <h2 data-i18n="about.title">Про мене</h2>
+      <p class="section-lead" data-i18n="about.lead">
+        Засновник Yunexal (неофіційна організація) і автор Yunexal Panel. Моя мета - робити self-hosted інфраструктуру простішою.
+      </p>
+
+      <div class="split-cards">
+        <article class="panel-card">
+          <h3 data-i18n="about.missionTitle">Місія</h3>
+          <p data-i18n="about.missionText">
+            Будувати надійні інструменти, які допомагають запускати і підтримувати власну інфраструктуру без зайвої складності.
+          </p>
+        </article>
+
+        <article class="panel-card">
+          <h3 data-i18n="about.focusTitle">Що я роблю зараз</h3>
+          <ul class="focus-list">
+            <li data-i18n="about.focusItem1">Розвиваю Yunexal Panel як платформу керування серверами на Docker.</li>
+            <li data-i18n="about.focusItem2">Працюю над швидкою та стабільною backend-архітектурою на Rust + Axum.</li>
+            <li data-i18n="about.focusItem3">Спрощую досвід для self-hosted адміністрування.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-pop">
+      <h2 data-i18n="projects.title">Проєкти</h2>
+      <p class="section-lead" data-i18n="projects.lead">
+        Основний публічний фокус - Yunexal Panel.
+      </p>
+
+      <article class="project-card">
+        <p class="project-kicker" data-i18n="projects.cardLabel">Флагманський проєкт</p>
+        <div class="project-head">
+          <h3>Yunexal Panel</h3>
+          <a class="project-link" href="https://github.com/nestorchurin/yunexal-panel" target="_blank" rel="noreferrer noopener" data-i18n="projects.repoCta">
+            GitHub репозиторій
+          </a>
+        </div>
+
+        <p data-i18n="projects.panelSummary">
+          Self-hosted server management platform built on Docker.
+        </p>
+
+        <ul class="project-list">
+          <li data-i18n="projects.panelItem1">
+            Built with Rust + Axum, SQLite, and Bollard (Docker SDK).
+          </li>
+          <li data-i18n="projects.panelItem2">
+            Templates and static assets are compiled into a single binary.
+          </li>
+          <li data-i18n="projects.panelItem3">
+            No external runtime files are required.
+          </li>
+        </ul>
+
+        <div class="project-tags" aria-label="Technology tags">
+          <span>Rust</span>
+          <span>Axum</span>
+          <span>SQLite</span>
+          <span>Docker</span>
+          <span>Bollard</span>
+        </div>
+      </article>
+    </section>
+
+    <section id="skills" class="section section-pop">
+      <h2 data-i18n="skills.title">Навички</h2>
+      <p class="section-lead" data-i18n="skills.lead">
+        Технології, з якими працюю зараз.
+      </p>
+
+      <div class="skills-grid">
+        <span class="skill-chip">Rust</span>
+        <span class="skill-chip">Axum</span>
+        <span class="skill-chip">SQLite</span>
+        <span class="skill-chip">Docker</span>
+        <span class="skill-chip">Bollard</span>
+        <span class="skill-chip">Linux</span>
+        <span class="skill-chip">Self-hosting</span>
+        <span class="skill-chip">DevOps Basics</span>
+      </div>
+    </section>
+
+    <section id="faq" class="section section-pop">
+      <h2 data-i18n="faq.title">FAQ</h2>
+
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary data-i18n="faq.q1">Що таке Yunexal?</summary>
+          <p data-i18n="faq.a1">
+            Yunexal - неофіційна організація, де я розвиваю власні інфраструктурні продукти та експерименти.
+          </p>
+        </details>
+
+        <details class="faq-item">
+          <summary data-i18n="faq.q2">Що вирішує Yunexal Panel?</summary>
+          <p data-i18n="faq.a2">
+            Проєкт спрощує self-hosted керування Docker-серверами через єдину панель.
+          </p>
+        </details>
+
+        <details class="faq-item">
+          <summary data-i18n="faq.q3">Який стек використовується?</summary>
+          <p data-i18n="faq.a3">
+            Основний стек: Rust, Axum, SQLite та Bollard (Docker SDK).
+          </p>
+        </details>
+
+        <details class="faq-item">
+          <summary data-i18n="faq.q4">Як зі мною зв'язатися?</summary>
+          <p data-i18n="faq.a4">
+            Найшвидше: Telegram, email або GitHub issues у репозиторії.
+          </p>
+        </details>
+      </div>
+    </section>
+
+    <section id="contacts" class="section section-pop">
+      <h2 data-i18n="contacts.title">Контакти</h2>
+      <p class="section-lead" data-i18n="contacts.lead">
+        Відкритий до співпраці та технічних обговорень.
+      </p>
+
+      <div class="contact-grid">
+        <a class="contact-card" href="https://github.com/nestorchurin" target="_blank" rel="noreferrer noopener">
+          <p data-i18n="contacts.githubLabel">GitHub</p>
+          <strong>@nestorchurin</strong>
+        </a>
+
+        <a class="contact-card" href="https://t.me/nestor_churin" target="_blank" rel="noreferrer noopener">
+          <p data-i18n="contacts.telegramLabel">Telegram канал</p>
+          <strong>@nestor_churin</strong>
+        </a>
+
+        <a class="contact-card" href="mailto:nestor@yunexal.com">
+          <p data-i18n="contacts.emailLabel">Email</p>
+          <strong>nestor@yunexal.com</strong>
+        </a>
+
+        <div class="contact-card">
+          <p data-i18n="contacts.discordLabel">Discord</p>
+          <strong>nestor_churin</strong>
+        </div>
+
+        <div class="contact-card">
+          <p data-i18n="contacts.timeLabel">Часовий пояс</p>
+          <strong>
+            Europe/Kyiv
+            <span class="time-inline" data-kyiv-time></span>
+          </strong>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p data-i18n="footer.copy">© {year} Nestor (Pavlo) Churin. Built with focus and Docker-shaped ideas.</p>
+  </footer>
+</body>
+</html>

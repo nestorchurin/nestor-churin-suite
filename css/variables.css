@@ -1,0 +1,48 @@
+:root {
+  color-scheme: light dark;
+  --font-heading: "Space Grotesk", "Segoe UI", sans-serif;
+  --font-body: "Space Grotesk", "Segoe UI", sans-serif;
+  --font-mono: "Space Mono", "Cascadia Mono", monospace;
+
+  --bg-color: #f5f7fb;
+  --surface-color: rgba(255, 255, 255, 0.78);
+  --surface-color-strong: rgba(255, 255, 255, 0.9);
+  --surface-fade: rgba(12, 159, 133, 0.22);
+  --surface-fade-strong: rgba(47, 114, 255, 0.18);
+
+  --text-color: #11162b;
+  --muted-text: #4d5a7a;
+  --accent: #0f9d84;
+  --accent-strong: #0a725f;
+  --accent-contrast: #04241d;
+
+  --border-color: rgba(17, 22, 43, 0.14);
+  --card-shadow: 0 20px 45px rgba(13, 17, 32, 0.11);
+
+  --content-width: min(1120px, 92vw);
+  --radius-lg: 24px;
+  --radius-md: 16px;
+  --radius-sm: 12px;
+
+  --transition-fast: 180ms ease;
+  --transition-base: 260ms ease;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #050a16;
+    --surface-color: rgba(10, 17, 35, 0.72);
+    --surface-color-strong: rgba(12, 22, 45, 0.88);
+    --surface-fade: rgba(15, 157, 132, 0.24);
+    --surface-fade-strong: rgba(39, 113, 255, 0.27);
+
+    --text-color: #ecf1ff;
+    --muted-text: #9fb0d8;
+    --accent: #4ae7c9;
+    --accent-strong: #73ffe0;
+    --accent-contrast: #07231d;
+
+    --border-color: rgba(154, 175, 227, 0.26);
+    --card-shadow: 0 24px 55px rgba(0, 0, 0, 0.45);
+  }
+}
