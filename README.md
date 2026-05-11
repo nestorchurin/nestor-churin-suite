@@ -5,7 +5,7 @@ Static bilingual bio website (Ukrainian + English) for Nestor (Pavlo) Churin.
 ## What is included
 
 - One-page layout with sections: Hero, About, Projects, Skills, FAQ, Contacts.
-- Automatic age calculation from `10.03.2025`.
+- Automatic age calculation from `10.03.2005`.
 - Automatic light/dark adaptation from device settings (`prefers-color-scheme`).
 - Language switcher with local storage persistence.
 - Dynamic Kyiv time widget (`Europe/Kyiv`).
