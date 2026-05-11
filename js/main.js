@@ -57,6 +57,7 @@ const translations = {
     "contacts.lead": "Відкритий до співпраці та технічних обговорень.",
     "contacts.githubLabel": "GitHub",
     "contacts.telegramLabel": "Telegram канал",
+    "contacts.telegramNote": "Шитпост, технічна частина і апдейти про Yunexal.",
     "contacts.emailLabel": "Email",
     "contacts.discordLabel": "Discord",
     "contacts.timeLabel": "Часовий пояс",
@@ -121,18 +122,84 @@ const translations = {
     "contacts.lead": "Open to collaboration and technical discussions.",
     "contacts.githubLabel": "GitHub",
     "contacts.telegramLabel": "Telegram channel",
+    "contacts.telegramNote": "Shitposts, technical content, and Yunexal updates.",
     "contacts.emailLabel": "Email",
     "contacts.discordLabel": "Discord",
     "contacts.timeLabel": "Timezone",
 
     "footer.copy": "© {year} Nestor (Pavlo) Churin. Built with focus on self-hosted infrastructure."
+  },
+  ru: {
+    "nav.about": "Хто я такий (нє запорєбрік)",
+    "nav.projects": "Прайєкти (нє вкрадєниє)",
+    "nav.skills": "Умєнія (своі, нє «спєціальниє»)",
+    "nav.faq": "Питання (нє «Z-питання»)",
+    "nav.contacts": "Звязок (нє з «Л/ДНР»)",
+
+    "hero.eyebrow": "Засновник Yunexal. Украінєц. Нє запорєбрік, нє арк, нє «своіх нє бросаєм».",
+    "hero.title": "Nestor (Pavlo) Churin",
+    "hero.subtitle": "Пішу kod поки кацапи сідят в канаві і чєкают на «побєду».",
+    "hero.description": "Украінєц з Кієва. Поки орки «дємілітарізіруют» — я будую інфру. Yunexal Panel нє здасца. Слава Украіні. Смєрть ворогам.",
+    "hero.ageLabel": "Скільки мєні рокув",
+    "hero.themeLabel": "Тєма: авто (нє «руській мір»)",
+    "hero.ctaProjects": "Дивіца прайєкти",
+    "hero.ctaContact": "Написати мєні",
+    "hero.hostingNote": "Хоститься на Yunexal Panel — украінська інфра, нє рашисткіє дата-цєнтри.",
+
+    "stats.roleLabel": "Хто я",
+    "stats.roleValue": "Засновник Yunexal (нє «Z-блогєр»)",
+    "stats.focusLabel": "Фокус",
+    "stats.focusValue": "Yunexal Panel",
+    "stats.timeLabel": "Час у Кієвє (нє в Масквє)",
+
+    "about.title": "Хто я (нє ваш «братській народ»)",
+    "about.lead": "Украінєц, засновник Yunexal, автор Yunexal Panel. Рускій корабль — ти знаєш куди. Я пішу kod, а нє «спєціальниє апєраціі».",
+    "about.missionTitle": "Місія",
+    "about.missionText": "Будувати надійну self-hosted інфру. Поки путлєрскіє орки окопуюца — я компілюю. Rust швидшє любого Т-72.",
+    "about.focusTitle": "Щас роблю",
+    "about.focusItem1": "Yunexal Panel — Docker-панєль, якої нєт у запорєбріков.",
+    "about.focusItem2": "Бекенд на Rust + Axum. Нє на «1С» і нє на совку.",
+    "about.focusItem3": "Self-hosted адмінка. Украіна будє пєрємагати — і в коді тожє.",
+
+    "projects.title": "Прайєкти (свої, нє «нациоанліізірованниє»)",
+    "projects.lead": "Yunexal Panel — украінська платформа. Нє «Госуслугі».",
+    "projects.cardLabel": "Флагман",
+    "projects.repoCta": "GitHub (нє заблокірован у рашкє)",
+    "projects.panelSummary": "Self-hosted Docker-панєль. Нє злітає від однієї санкції.",
+    "projects.panelItem1": "Rust + Axum + SQLite + Bollard. Нічого рашисткого.",
+    "projects.panelItem2": "Всьо компілюєца в одін бінарь. Як укріплєніє, тільки тримається.",
+    "projects.panelItem3": "Нуль зовнішніх залежностей. Як Украіна — сама по собі.",
+
+    "skills.title": "Стєк (нє «Касперскій»)",
+    "skills.lead": "Тєхнологіі якимі користуюся. Жодного рашисткого продукту.",
+
+    "faq.title": "Питання і відповіді",
+    "faq.q1": "Шо такє Yunexal?",
+    "faq.a1": "Украінський нєофіційний рух і мої інфра-продукти. Нє «Ростєх», нє «Сбер», нє «іміпортозамєщєніє».",
+    "faq.q2": "Нашо Yunexal Panel?",
+    "faq.a2": "Docker-управлєніє бєз болі. Одна панєль замість цілой арміі запорєбріков-адмінів.",
+    "faq.q3": "Який стєк?",
+    "faq.a3": "Rust, Axum, SQLite, Bollard. Нічого с «рускім міром» не сумісного.",
+    "faq.q4": "Як зв'язатись?",
+    "faq.a4": "Telegram, email, GitHub. Тільки нє VK, нє Mail.ru і нє «Одноклассники».",
+
+    "contacts.title": "Звязок",
+    "contacts.lead": "Відкритий до співпраці. З людьми, нє з орками.",
+    "contacts.githubLabel": "GitHub",
+    "contacts.telegramLabel": "Telegram",
+    "contacts.telegramNote": "Шітпости, тєхконтєнт, апдейти Yunexal. Слава Украіні — і цьому каналу.",
+    "contacts.emailLabel": "Email",
+    "contacts.discordLabel": "Discord",
+    "contacts.timeLabel": "Часовий пояс",
+
+    "footer.copy": "© {year} Nestor (Pavlo) Churin. Украінєц. Нє запорєбрік. Слава Украіні — Героям Слава."
   }
 };
 
 const DEFAULT_BIRTH_DATE_STRING = "10.03.2005";
 const TIME_ZONE = "Europe/Kyiv";
 const STORAGE_KEY = "nestor-churin-bio-language";
-const SUPPORTED_LANGUAGES = ["uk", "en"];
+const SUPPORTED_LANGUAGES = ["uk", "en", "ru"];
 
 let activeLanguage = "uk";
 
@@ -253,6 +320,10 @@ function resolveInitialLanguage() {
     return "uk";
   }
 
+  if (browserLanguage.startsWith("ru")) {
+    return "ru";
+  }
+
   return "en";
 }
 
@@ -294,7 +365,13 @@ function updateAge() {
 }
 
 function updateKyivTime() {
-  const locale = activeLanguage === "uk" ? "uk-UA" : "en-GB";
+  const localeByLanguage = {
+    uk: "uk-UA",
+    en: "en-GB",
+    ru: "ru-RU"
+  };
+
+  const locale = localeByLanguage[activeLanguage] || "en-GB";
   const formatter = new Intl.DateTimeFormat(locale, {
     timeZone: TIME_ZONE,
     hour: "2-digit",

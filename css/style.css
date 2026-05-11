@@ -120,7 +120,7 @@ summary:focus-visible {
 
 .lang-switch {
   display: inline-grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   border: 1px solid var(--border-color);
   border-radius: 999px;
   overflow: hidden;
@@ -133,7 +133,7 @@ summary:focus-visible {
   font-family: var(--font-mono);
   font-size: 0.8rem;
   letter-spacing: 0.04em;
-  padding: 0.38rem 0.68rem;
+  padding: 0.38rem 0.56rem;
   cursor: pointer;
 }
 
@@ -502,6 +502,12 @@ a.contact-card:focus-visible {
 .contact-card strong {
   font-size: 1rem;
   overflow-wrap: anywhere;
+}
+
+.contact-note {
+  color: var(--muted-text);
+  font-size: 0.8rem;
+  line-height: 1.4;
 }
 
 .time-inline {
