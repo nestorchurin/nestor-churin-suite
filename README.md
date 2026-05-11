@@ -53,4 +53,7 @@ PORT=3000
 - Language texts: `translations` object in `js/main.js`.
 - Design tokens (colors, fonts): `css/variables.css`.
 - Components and responsive styles: `css/style.css`.
+<<<<<<< HEAD
 - Rust server entrypoint: `src/main.rs`.
+=======
+>>>>>>> origin/main
