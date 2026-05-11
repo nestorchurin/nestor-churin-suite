@@ -230,6 +230,20 @@ section {
   gap: 0.8rem;
 }
 
+.hosting-note {
+  margin-top: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: var(--muted-text);
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  background: var(--surface-color);
+  padding: 0.35rem 0.8rem;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+}
+
 .button {
   text-decoration: none;
   border-radius: 999px;

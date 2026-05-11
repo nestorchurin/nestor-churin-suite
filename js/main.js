@@ -14,6 +14,7 @@ const translations = {
     "hero.themeLabel": "Тема: авто за пристроєм",
     "hero.ctaProjects": "Переглянути проєкти",
     "hero.ctaContact": "Зв'язатися",
+    "hero.hostingNote": "Цей сайт хоститься на Yunexal Panel.",
 
     "stats.roleLabel": "Роль",
     "stats.roleValue": "Засновник Yunexal",
@@ -77,6 +78,7 @@ const translations = {
     "hero.themeLabel": "Theme: automatic from device",
     "hero.ctaProjects": "View projects",
     "hero.ctaContact": "Contact me",
+    "hero.hostingNote": "This site is hosted on Yunexal Panel.",
 
     "stats.roleLabel": "Role",
     "stats.roleValue": "Founder at Yunexal",

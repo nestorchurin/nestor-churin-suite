@@ -5,16 +5,20 @@ Static bilingual bio website (Ukrainian + English) for Nestor (Pavlo) Churin.
 ## What is included
 
 - One-page layout with sections: Hero, About, Projects, Skills, FAQ, Contacts.
-- Automatic age calculation from `10.03.2025`.
+- Automatic age calculation from `10.03.2005`.
 - Automatic light/dark adaptation from device settings (`prefers-color-scheme`).
 - Language switcher with local storage persistence.
 - Dynamic Kyiv time widget (`Europe/Kyiv`).
 - Responsive design for desktop and mobile.
+- Rust runtime with Axum static-file server.
 
 ## Project structure
 
 ```
 .
+├─ Cargo.toml
+├─ src/
+│  └─ main.rs
 ├─ index.html
 ├─ css/
 │  ├─ variables.css
@@ -28,14 +32,20 @@ Static bilingual bio website (Ukrainian + English) for Nestor (Pavlo) Churin.
 
 ## Local run
 
-Open `index.html` directly in a browser,
-or run a local static server, for example:
+Run with Rust:
 
 ```bash
-python -m http.server 8080
+cargo run
 ```
 
-Then open `http://localhost:8080`.
+The server starts at `http://localhost:3000` by default.
+
+Optional environment variables:
+
+```bash
+HOST=0.0.0.0
+PORT=3000
+```
 
 ## Content updates
 
@@ -43,3 +53,4 @@ Then open `http://localhost:8080`.
 - Language texts: `translations` object in `js/main.js`.
 - Design tokens (colors, fonts): `css/variables.css`.
 - Components and responsive styles: `css/style.css`.
+- Rust server entrypoint: `src/main.rs`.
