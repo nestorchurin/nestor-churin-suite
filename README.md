@@ -55,5 +55,3 @@ PORT=3000
 - Components and responsive styles: `css/style.css`.
 <<<<<<< HEAD
 - Rust server entrypoint: `src/main.rs`.
-=======
->>>>>>> origin/main
